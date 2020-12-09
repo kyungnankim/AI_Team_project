@@ -13,6 +13,13 @@
 ## preprocessing 모듈
 학습시킬 데이터를 전처리 하여 npy 파일로 저장
 
+### 전처리 과정
+
+1. 학습 시킬 원본데이터 분석
+- 학습 시킬 wav 파일을 matplolib으로 출력하니 x축은 시간 y축은 데시벨이 출력된다.
+<a href='![db_graph](https://user-images.githubusercontent.com/50133267/101586871-30fd3180-3a26-11eb-9048-7150dd0c24a1.png)
+'>wav의 데시벨 그래프</a>
+
 <br>
 
 ----
