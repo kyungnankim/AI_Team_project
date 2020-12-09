@@ -49,7 +49,9 @@
 
 ## model 모듈
 전처리 한 npy 파일을 이용하여 모델을 학습하여 모델을 저장
+
 <detail>
+
 <summary>
 펼치기/접기
 </summary>
