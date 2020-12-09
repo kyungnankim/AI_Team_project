@@ -81,6 +81,7 @@ model = LGBMClassifier(n_jobs=-1,
 <br>
 
 ## live_to_scale
+
 *** 저장한 모듈을 사용하여 실시간 마이크 입력으로 도, 레, 미, 파, 솔, 라, 시 출력 ***
 
 <details>
