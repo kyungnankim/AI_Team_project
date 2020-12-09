@@ -15,13 +15,13 @@
 
 ### 전처리 과정
 
-1. 학습 시킬 원본데이터 분석
 
 <details>
 <summary>
 펼치기/접기
 </summary>
 
+1. 학습 시킬 원본데이터 분석
 - 학습 시킬 wav 파일을 matplolib으로 출력하니 x축은 시간 y축은 데시벨이 출력돰
 ![db_graph](https://user-images.githubusercontent.com/50133267/101586871-30fd3180-3a26-11eb-9048-7150dd0c24a1.png)
 
@@ -49,7 +49,28 @@
 
 ## model 모듈
 전처리 한 npy 파일을 이용하여 모델을 학습하여 모델을 저장
+<detail>
+<summary>
+펼치기/접기
+</summary>
 
+1. model의 빠른 생성을 위해 lgbm 사용
+- lgbm의 특성
+    - 적은 메모리 사용
+    - 높은정확도
+    - GPU 사용
+    - 데이터의 1만개 이하의 경우 overfitting 위험 
+
+- lgbm 사용 시 acc: 0.86의 결과를 보여줌
+
+```
+model = LGBMClassifier(n_jobs=-1,
+                     tree_method='gpu_hist',
+                     predictor = 'gpu_predictor'
+                     )
+```
+
+</detail>
 <br>
 
 ----
