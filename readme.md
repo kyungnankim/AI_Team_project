@@ -25,13 +25,14 @@
     - 그래프 중 해당 음계에 맞지 않는 주파수가 높게 나타나는 상황이 발생 -> Scatter로 확인.
     ![SQ_SCAtter](https://user-images.githubusercontent.com/50133267/101587415-838b1d80-3a27-11eb-8e58-2ecc9c8a34e7.png)
 
-    - 해당 주파수를 midi 번호로 변경 한 뒤 round를 통해 그룹화 진행, 그룹화 데이터의 평균을 구하니 원하는 midi 번호가 높은 power를 가지는 그래프를 볼 수 있었음.
+    - 해당 주파수를 midi 번호로 변경 한 뒤 round를 통해 그룹화 진행, 그룹화 데이터의 평균을 구하면 원하는 midi 번호가 높은 power를 가지는 그래프를 볼 수 있었음.
     ![midi_graph](https://user-images.githubusercontent.com/50133267/101587765-3ce9f300-3a28-11eb-92a8-2836254cfbb6.png)
-    
+
     - 주파수에 해당하는 미디번호
+
     ![KakaoTalk_20201204_093038183](https://user-images.githubusercontent.com/50133267/101587779-42dfd400-3a28-11eb-9a50-99e52f2e2fad.png)
 
-
+- 만들어진 그래프의 powr를 x값으로, wav 파일에 명시되어 있는 midi번호를 y값으로 npy 저장
 
 <br>
 
