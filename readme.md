@@ -16,6 +16,12 @@
 ### 전처리 과정
 
 1. 학습 시킬 원본데이터 분석
+
+<details>
+<summary>
+펼치기/접기
+</summary>
+
 - 학습 시킬 wav 파일을 matplolib으로 출력하니 x축은 시간 y축은 데시벨이 출력돰
 ![db_graph](https://user-images.githubusercontent.com/50133267/101586871-30fd3180-3a26-11eb-9048-7150dd0c24a1.png)
 
@@ -34,6 +40,7 @@
 
 - 만들어진 그래프의 powr를 x값으로, wav 파일에 명시되어 있는 midi번호를 y값으로 npy 저장
 
+</details>
 <br>
 
 ----
